@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Segments</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <ion-segment (ionChange)="segmentChanged($event)">
+    <ion-segment-button value="itzy">
+      <ion-label>ITZY</ion-label>
+    </ion-segment-button>
+        
+
+    <ion-segment-button value="twice">
+      <ion-label>TWICE</ion-label>
+    </ion-segment-button>
+
+      <ion-segment-button value="straykidz">
+        <ion-label>STRAYKIDZ</ion-label>
+      </ion-segment-button>
+    
+  </ion-segment>
+</ion-content>
